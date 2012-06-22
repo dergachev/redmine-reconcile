@@ -4,7 +4,7 @@ redmine-reconcile
 Google Refine reconciliation service implementation for Redmine issues
 This makes Google Refine render each redmine issue ID as a clickable link.
 
-![screenshot](http://dl-web.dropbox.com/u/29440342/screenshots/Screen%20Shot%202012-06-22%20at%2011.57.35%20AM.png)
+![screenshot](http://dl-web.dropbox.com/u/29440342/screenshots/Screen%20Shot%202012-06-22%20at%204.08.56%20PM.png)
 
 At the moment all it does is blindly verifies any integer to itself, and provides the following metadata:
 
