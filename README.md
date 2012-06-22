@@ -38,7 +38,7 @@ TODO
 
 Inspiration
 -----------
-This was adapted from the following:
+This was adapted from the following: https://github.com/mikejs/reconcile-demo
 
-See http://code.google.com/p/google-refine/wiki/ReconciliationServiceApi.
-See https://github.com/mikejs/reconcile-demo
+For more info, see http://code.google.com/p/google-refine/wiki/ReconciliationServiceApi.
+
