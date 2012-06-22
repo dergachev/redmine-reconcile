@@ -12,7 +12,7 @@ At the moment all it does is blindly verifies any integer to itself, and provide
       "name": "Redmine Reconciliation Service",
       "defaultTypes": [{"id": "/evolvingweb/redmine-issues", "name": "Redmine ID"}],
       "view": { "url" : "http://your-redmine-server.com/issues/{{id}}" } 
-    }```
+    }
 
 Note that the metadata.view.url comes from a command line argument to the script
 
