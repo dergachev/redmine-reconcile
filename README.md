@@ -8,14 +8,13 @@ This makes Google Refine render each redmine issue ID as a clickable link.
 
 At the moment all it does is blindly verifies any integer to itself, and provides the following metadata:
 
-```metadata = {
-  "name": "Redmine Reconciliation Service",
-  "defaultTypes": [{"id": "/evolvingweb/redmine-issues", "name": "Redmine ID"}],
-  "view": { "url" : "http://your-redmine-server.com/issues/{{id}}" } 
-}```
+    metadata = {
+      "name": "Redmine Reconciliation Service",
+      "defaultTypes": [{"id": "/evolvingweb/redmine-issues", "name": "Redmine ID"}],
+      "view": { "url" : "http://your-redmine-server.com/issues/{{id}}" } 
+    }```
 
-
-Note that the view.url property is provided as the first required argument to the script.
+Note that the metadata.view.url comes from a command line argument to the script
 
 Requirements
 ------------
